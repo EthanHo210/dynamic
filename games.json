@@ -1,0 +1,7 @@
+[
+    { "id": 1, "name": "Legend of Zelda", "price": 59.99, "image": "game1.jpg" },
+    { "id": 2, "name": "Mario Kart", "price": 49.99, "image": "game2.jpg" },
+    { "id": 3, "name": "Animal Crossing", "price": 39.99, "image": "game3.jpg" },
+    { "id": 4, "name": "Metroid Prime", "price": 59.99, "image": "game4.jpg" },
+    { "id": 5, "name": "Super Smash Bros.", "price": 59.99, "image": "game5.jpg" }
+]

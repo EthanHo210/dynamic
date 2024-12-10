@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milo's Secret Game Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Milo's Secret Game Shop</h1>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="contacts.html">Contact</a>
+            <a href="orders.html">Show Orders</a>
+        </nav>
+    </header>
+    <main>
+        <section id="products">
+            <h2>Available Games</h2>
+            <div id="game-list"></div>
+        </section>
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+                <p>Your cart is empty.</p>
+            </div>
+            <div id="cart-total">
+                <strong>Total:</strong> $<span id="total-price">0.00</span>
+            </div>
+            <button id="checkout" disabled>Checkout</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Milo's Secret Game Shop</p>
+    </footer>
+</body>
+</html>
